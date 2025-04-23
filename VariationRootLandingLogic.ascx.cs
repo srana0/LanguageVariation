@@ -16,7 +16,7 @@ using Microsoft.Office.Server.UserProfiles;
 
 namespace VariationNamespace
 {
-    public partial class PBVariationRootLandingLogic : System.Web.UI.UserControl
+    public partial class VariationRootLandingLogic : System.Web.UI.UserControl
     {
         private ReadOnlyCollection<VariationLabel> allLabels = null;
         private Dictionary<string, string> languageToUrl1 = null;
